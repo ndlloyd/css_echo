@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Echo</title>
+</head>
+<body>
+
+<h1>Editing user</h1>
+
+<div class="container">
+<form action="/echo" id="name_form" method="post">
+
+  <div class="field">
+    <span id="name_label">Name</span><br />
+    <input id="name_input" name="input_name" size="30" type="text" value="type something" />
+  </div>
+  <div class="field">
+    <span id="name_checkbox_label">Check me out</span><br />
+    <input id="name_checkbox" name="checkbox_name" type="checkbox" value="name" />
+  </div>
+  <div class="actions">
+    <input name="commit" type="submit" value="Submit Name" />
+  </div>
+</form>
+</div>
+<div class="container">
+<form action="/echo" id="age_form" method="post">
+
+  <div class="field">
+    <span id="age_label">Age</span><br />
+    <input id="age_input" name="input_age" size="30" type="text" value="type something" />
+  </div>
+  <div class="field">
+    <span id="age_checkbox_label">Check me out</span><br />
+    <input id="age_checkbox" name="checkbox_name" type="checkbox" value="age" />
+  </div>
+  <div class="actions">
+    <input name="commit" type="submit" value="Submit Name" />
+  </div>
+</form>
+</div>
+
+
+</body>
+</html>
