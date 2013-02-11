@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-* { border:#F00 thin dashed; }
+/* * { border:#F00 thin dashed; } */
 #sidebar {
      float:right; width:200px; 
      background-color: hsl(120, 100%, 75%); 
